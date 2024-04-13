@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?gwrx1x");
+  src:
+    url("fonts/icomoon.eot?gwrx1x#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?gwrx1x") format("truetype"),
+    url("fonts/icomoon.woff?gwrx1x") format("woff"),
+    url("fonts/icomoon.svg?gwrx1x#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "SuisseIntlRegular";
+  src: url("fonts/SuisseIntlRegular.eot");
+  src:
+    url("fonts/SuisseIntlRegular.eot") format("embedded-opentype"),
+    url("fonts/SuisseIntlRegular.woff2") format("woff2"),
+    url("fonts/SuisseIntlRegular.woff") format("woff"),
+    url("fonts/SuisseIntlRegular.ttf") format("truetype"),
+    url("fonts/SuisseIntlRegular.svg#SuisseIntlRegular") format("svg");
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-next-arrow:before {
+  content: "\e900";
+}
