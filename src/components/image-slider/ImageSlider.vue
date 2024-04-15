@@ -1,6 +1,9 @@
 <script>
 import { defineComponent } from "vue";
 import Logo from "@/components/logo-screen/LogoScreen.vue";
+import image1 from "@/assets/04header.jpg";
+import image2 from "@/assets/03header.jpg";
+import image3 from "@/assets/02header.jpg";
 import { gsap } from "gsap";
 
 export default defineComponent({
@@ -9,11 +12,7 @@ export default defineComponent({
   components: { Logo },
   data() {
     return {
-      images: [
-        "src/assets/04header.jpg",
-        "src/assets/03header.jpg",
-        "src/assets/02header.jpg",
-      ],
+      images: [image1, image2, image3],
       activeSl: false,
     };
   },
